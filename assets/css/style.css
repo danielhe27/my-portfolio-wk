@@ -12,6 +12,7 @@ body {
 header {
   background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);;
   color: #fff;
+  padding: 10px;
 }
 
 h1 {
@@ -28,7 +29,32 @@ h1 {
 
 a {
   color: rgb(72, 73, 72);
-  text-decoration: none;
+  text-decoration:dashed;
   font-size: 20px;
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid gray;
+  margin: 0;
 
 }
+.hero {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/sunrise.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 200px;
+}
+
+h6 {
+  position: absolute;
+    top: 303px;
+    right: 27px;
+    transform: rotate(5deg);
+    font-size: 21px;
+    font-family: cursive;
+    color: aliceblue;
+    display: inline-block;
+  }
