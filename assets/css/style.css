@@ -1,92 +1,141 @@
+/* styling following standars */
+
 * {
-  background-color: rgb(72, 215, 25);
-  box-sizing: border-box;
+box-sizing:border-box;
   padding:0;
   margin:0;
 }
 
+/* i had background element with gradient style  and font sizing just to make it accesible to different kinds */
 header {
   background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);;
   color: #fff;
   padding: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/* use of display to make it part of my header element with the proper sizing */
 header h1 {
   display: inline-block;
   font-size: 30px;
 }
+/* adding some elements to make it fit  */
 header nav { 
   padding-top: 15px;
   margin-right: 20px;
   float: right;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;} 
+  font-size: 20px;
+  display: contents;
+} 
 
+  /* here in telling that my elements needs to be horizontally instead of a column  */
   header nav ul li { 
     display: inline-block;
     margin-left: 25px;
 }
-
-h6 {  
-position: absolute;
-  top: 303px;
-  right: 27px;
-  transform: rotate(5deg);
-  font-size: 21px;
-  font-family: cursive;
-  color: aliceblue;
-  display: inline-block;
-  vertical-align: text-bottom;
-  z-index: -1;
-}
+/* this is the for and positioning of my hero element where i add an short message  */
 .hero{
   position: relative;
   text-align: center;
   color: rgb(9, 194, 157);
   font-family: 'Times New Roman', Times, serif;
 }
-/* Bottom left text */
+/* makes everything center on my screen */
 .text-container {
   position: absolute;
   bottom: 8px;
   right: 16px;
 }
-
+/* i make my elements fit following a column i had spaces in between lines and display flex */
 aside {
-width: 30%; /* Adjust the width as needed */
-display: block;
-flex-direction: column;
-line-height: 200px;
-font-size: medium;
-margin-top: -194px;
-}
+  width: 43%;
+  flex-direction: column;
+  line-height: 176px;
+  font-size: medium;
+  margin-top: -194px;
+  display: flex;
 
+}
+/* i stylish my box maken round borders and other elements  but this is bigger as a petition of my school*/
 .About-Me {
-    background-color: #f0f0f0;
-    padding: 18px;
-    border-radius: 65px;
-    font-family: Arial, sans-serif;
-    margin-left: 213px;
-    text-align: center;
-    margin-top: 57px;
-}
-
-
-.square-container {
-  margin-left: 213px;
-    text-align: center;
-    margin-top: 57px;
-}
-
-.botom {
-  display: block;
-  width: 300px;
-  height: 300px;
-  background-color: #ccc;
-  margin: 5px;
+  background-color: #f0f0f0;
+  padding: 18px;
+  border-radius: 63px;
+  font-family: Arial, sans-serif;
+  margin-left: 182px;
   text-align: center;
-  line-height: 50px;
-  text-decoration: none;
-  color: #000;
-  align-items: flex-start;
+  margin-top: 63px;
+  display: flex;
+  margin-right: 28px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  
+}
+/* this is my main section of my links where is located my first application on github */
+.Top{
+  width: 1999px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 10px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #0072bb;
+  text-transform: capitalize;
+  font-size: 30px;
+  align-items: flex-end;
+  color: #020024;
+}
+
+/* i stylish my box maken round borders and other elements  */
+.Top-left ,
+.Top-right {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 10px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  margin: 24px 26px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 3;
+  background-color: olive;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* styling my links */
+.square-container {
+  width: 224%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #fff;
+    padding: 64px;
+    margin-left: 106px;
+    align-items: flex-start;
+}
+
+/* adding some elementes to make my section responsive when i shrink it */
+.contact-info {
+  text-align: justify;
+    display: block;
+    margin: 22px;
+    font-size: 21px;
+    line-height: 1.5;
+color: #aaaaaa;
+}
+/* im adding some color to the section and font styling */
+.contact-info p {
+font-size: 25px;
+background-color: #086578;
+font-family:'Times New Roman', Times, serif ;
+color: #00d4ff;
+}
+
+/* just changing color on my containers */
+.square-container a{
+color: #00d4ff;
+
 }
