@@ -1,7 +1,6 @@
 # my-portfolio-wk
-Title and Description
 Title: my-portfolio-wk (my portfolio work)
-Description: This application serves as my portfolio. It includes sections for contacting me, a short resume, and links to my first assignment and Google.
+This application serves as my portfolio. It includes sections for contacting me, a short resume, and links to my first assignment and Google.
 
 # Screenshots
 ![screencapture-file-Users-herrera-project-my-portfolio-wk-index-html-2023-12-16-20_36_10](https://github.com/danielhe27/my-portfolio-wk/assets/142111314/82e60e53-60c5-4e22-9be9-84bab63514a1)
